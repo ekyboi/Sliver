@@ -1,3 +1,3 @@
-module github.com/sliver/sliver
+module github.com/ekyboi/sliver
 
 go 1.21
