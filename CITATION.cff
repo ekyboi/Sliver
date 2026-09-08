@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you utilize this reflection-free columnar serialization engine in your academic systems research or production data planes, please cite it using these metadata."
+authors:
+  - given-names: "Eklavya"
+    family-names: "Saini"
+    website: "https://github.com"
+title: "Sliver: A Zero-Allocation, Reflection-Free Columnar Storage and Packing Primitive Outside the Go Heap"
+version: 1.0.0
+date-released: 2026-09-07
+url: "https://github.com/Sliver"
+repository-code: "https://github.com/Sliver"
+abstract: >-
+  Sliver is an extreme-throughput, zero-allocation schema-free columnar serialization 
+  and memory-packing engine written in pure Go. By completely bypassing the Go runtime heap 
+  via native system call allocations and organizing data into layout-stable columnar vectors, 
+  Sliver enables high-frequency record encoding, filtering, and retrieval via direct, 
+  reflection-free unsafe pointer offset calculations, eliminating Garbage Collection scanning 
+  overhead and CPU cache fragmentation at bare-metal memory speeds.
+keywords:
+  - golang
+  - serialization
+  - columnar-storage
+  - zero-copy
+  - lock-free
+  - off-heap
+  - zero-allocation
+  - systems-programming
+license: MIT
